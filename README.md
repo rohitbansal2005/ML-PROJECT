@@ -29,11 +29,9 @@ Follow these simple steps to get started:
 1️⃣ **Clone the Repository**  
    ```bash
    git clone https://github.com/rohitbansal2005/movie-recommendation-system.git
-   cd movie-recommendation-system```
+   cd movie-recommendation-system
 
-2️⃣  Install Dependencies
-    ```bash
-    pip install -r requirements.txt```
+
 
     
 
