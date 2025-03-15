@@ -18,7 +18,7 @@ def get_recommendations(title, cosine_sim=cosine_sim):
 
 # Fetch movie poster from TMDB API with error handling and timeout
 def fetch_poster(movie_id):
-    api_key = 'ad5ad7f4b240eee917dbb44cd4c2895a'  # अपना API key सुनिश्चित करें
+    api_key = '------'  # अपना API key सुनिश्चित करें
     url = f'https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}'
     try:
         response = requests.get(url, timeout=20)  # 10 सेकंड का timeout
